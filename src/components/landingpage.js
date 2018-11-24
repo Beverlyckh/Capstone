@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Grid, Cell, Button, CardActions } from 'react-mdl';
+import React, { Component  } from 'react';
+import { Grid, Cell, button } from 'react-mdl';
 
 class Landing extends Component {
   render() {
@@ -13,6 +13,9 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
             />
+
+            <button > Current Location</button>
+
 
            
 
